@@ -1,0 +1,9 @@
+{
+  "password": "كلمة المرور",
+  "please_enter_valid_password": "الرجاء إدخال كلمة مرور صالحة.",
+  "1_there_must_have_numbers": "1- يجب أن يكون هناك أرقام",
+  "2_there_must_be_uppercase_letters": "2- يجب أن يكون هناك حروف كبيرة",
+  "3_there_must_be_lowercase_letters": "3- يجب أن يكون هناك حروف صغيرة",
+  "4_maximum_letters_of_characters_40": "4- الحد الأقصى لعدد الأحرف 40",
+  "5_minimum_letters_of_characters_8": "5- الحد الأقصى لعدد الأحرف 8"
+}

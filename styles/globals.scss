@@ -1,0 +1,124 @@
+:root {
+  --fontSizeNum: 12px;
+}
+:root {
+  // Start Colors
+  --DarkColor: #000000;
+  --LightColor: #ffffff;
+  --DimColor: #15202b;
+  --Theme: #000000;
+  --SupportTheme: #5656571c;
+  --MainColor: #1d9bf0;
+  --HoverMainColor: rgb(26, 140, 216);
+  --HoverTheme: rgba(231, 233, 234, 0.1);
+  --ColorElement: #fff;
+  --ColorIntenseElement: #71767b;
+  --ColorTingeElement: #e7e9ea;
+  --LogoColor: var(--MainColor);
+  // End Colors
+
+  // Start Fonts Famliy
+  --MainFontFamliy: sans-serif;
+  --SecondFontFamliy: system-ui;
+  // End Fonts Famliy
+
+  // Start Fonts Size
+  --VerySmallFontSize: var(--fontSizeNum);
+  --SmallFontSize: calc(var(--fontSizeNum) + 1px); //13px
+  --MediumFontSize: calc(var(--fontSizeNum) + 2px); //14px
+  --LargeFontSize: calc(var(--fontSizeNum) + 4px); // 16px
+  --XLargeFontSize: calc(var(--fontSizeNum) + 6px); // 18px
+  --XXLargeFontSize: calc(var(--fontSizeNum) + 8px); // 20px
+  // End Fonts Size
+
+  // Start Fonts Weight
+  --SmallFontWeight: 400;
+  --LargeFontWeight: 700;
+  --XLargeFontWeight: 800;
+  // End Fonts Weight
+
+  // Start Lines Height
+  --VerySmallLineHeight: 14px;
+  --SmallLineHeight: 18px;
+  --MediumLineHeight: 20px;
+  --LargeLineHeight: 22px;
+  --XLargeLineHeight: 24px;
+  // End Lines Height
+
+  // Start Transition
+  --MainTransition: 0.3s;
+  // End Transition
+
+  // Start Border Color
+  --MainBorderColor: rgb(47, 51, 54);
+  // End Border Color
+  // Start BoxShadow
+  --BoxShadow: rgba(101, 119, 134, 0.2) 0px 0px 15px,
+    rgba(101, 119, 134, 0.15) 0px 0px 3px 1px;
+  // End BoxShadow
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color var(--MainTransition) ease;
+  body {
+    overflow-y: scroll !important;
+    width: 100% !important;
+  }
+  &.light {
+    background-color: var(--LightColor) !important;
+  }
+  &.Dim {
+    background-color: var(--DimColor) !important;
+  }
+  &.dark {
+    background-color: var(--DarkColor) !important;
+  }
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  // Extra small
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+
+  // Small
+  @media (min-width: 576px) {
+    width: 558px;
+  }
+
+  // Medium
+  @media (min-width: 768px) {
+    width: 750px;
+  }
+
+  // Large
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+
+  // X-Large
+  @media (min-width: 1200px) {
+    width: 1140px;
+  }
+  // XX-Large
+  @media (min-width: 1400px) {
+    width: 1320px;
+  }
+  // XXX-Large
+  @media (min-width: 1480px) {
+    width: 1400px;
+  }
+}

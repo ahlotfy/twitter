@@ -1,0 +1,196 @@
+// Model
+:where(.css-dev-only-do-not-override-12jzuas).ant-modal-root
+  .ant-modal-centered
+  .ant-modal {
+  box-shadow: var(--BoxShadow);
+  border: 1px solid var(--MainBorderColor);
+  padding: 0px;
+  background-color: transparent;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-dropdown {
+  background-color: var(--Theme);
+  border-radius: 6px;
+  overflow: hidden;
+  .ant-dropdown-menu,
+  :where(.css-dev-only-do-not-override-12jzuas).ant-dropdown-menu-submenu
+    .ant-dropdown-menu {
+    box-shadow: var(--BoxShadow);
+    padding: 0px;
+    border: 1px solid var(--MainBorderColor);
+    background-color: var(--HoverTheme);
+    overflow: hidden;
+    border-radius: 6px;
+    .ant-dropdown-menu-item {
+      color: var(--ColorElement);
+      fill: var(--ColorElement);
+      border-radius: 0px;
+      background-color: var(--Theme);
+    }
+  }
+}
+// Select
+:where(
+    .css-dev-only-do-not-override-12jzuas
+  ).ant-select-single.ant-select-lg:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background-color: transparent;
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-select
+  .ant-select-arrow
+  .anticon
+  > svg {
+  width: 15px;
+  height: 15px;
+  color: var(--ColorElement);
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-picker-large,
+:where(
+    .css-dev-only-do-not-override-12jzuas
+  ).ant-select-single.ant-select-lg:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background-color: transparent;
+  width: 100%;
+  border-color: var(--MainBorderColor);
+  color: var(--ColorElement);
+  .ant-picker-input,
+  .ant-select-selector {
+    input {
+      color: var(--ColorElement);
+      &::placeholder {
+        color: var(--ColorIntenseElement) !important;
+      }
+    }
+  }
+  .ant-picker-suffix {
+    color: var(--ColorIntenseElement);
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-select:not(
+    .ant-select-disabled
+  ):not(.ant-select-customize-input):not(
+    .ant-pagination-size-changer
+  ):focus-within
+  .ant-select-selector {
+  border-color: var(--MainColor);
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-select-dropdown {
+  .ant-select-item {
+    color: var(--ColorElement);
+  }
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: var(--HoverTheme);
+    color: var(--ColorElement);
+  }
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-select-dropdown {
+  background-color: var(--Theme);
+  padding: 0px;
+  .ant-select-item-option-content {
+    padding: 8px 0px;
+    &.ant-select-item-option-active {
+      margin: 5px 0px;
+    }
+  }
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background-color: var(--HoverTheme);
+  }
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-select:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  border: 1px solid var(--MainBorderColor) !important;
+}
+.rc-virtual-list-scrollbar-thumb {
+  background-color: inherit !important;
+}
+
+// DatePicker
+:where(.css-dev-only-do-not-override-12jzuas).ant-picker-dropdown {
+  .ant-picker-panel-container {
+    background: var(--Theme);
+    border: 1px solid var(--MainBorderColor);
+    box-shadow: var(--BoxShadow);
+  }
+  .ant-picker-header {
+    & button {
+      color: var(--ColorElement);
+    }
+    > button:hover {
+      color: var(--MainColor);
+    }
+  }
+  .ant-picker-content th,
+  .ant-picker-content td {
+    color: var(--ColorElement);
+  }
+  .ant-picker-cell-disabled {
+    color: var(--HoverTheme) !important;
+    &::before {
+      background: var(--SupportTheme);
+    }
+  }
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-picker-dropdown
+  .ant-picker-header {
+  border-color: var(--MainBorderColor);
+}
+// Alert
+:where(.css-dev-only-do-not-override-12jzuas).ant-alert {
+  margin-bottom: 10px;
+}
+button {
+  padding-bottom: 5px;
+}
+
+.ant-modal-content {
+  padding: 0px !important;
+}
+.ant-modal-header {
+  margin-bottom: 0px !important;
+}
+.ant-upload-wrapper {
+  line-height: 0 !important;
+  max-height: 28px !important;
+}
+
+button {
+  padding-bottom: 5px;
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-btn:not(
+    :disabled
+  ):focus-visible {
+  outline: 1px solid var(--MainColor);
+}
+// Input.Password
+:where(.css-dev-only-do-not-override-12jzuas).ant-input-affix-wrapper {
+  border-color: var(--MainBorderColor);
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-input-affix-wrapper:not(
+    .ant-input-affix-wrapper-disabled
+  ):hover {
+  border-color: var(--MainColor);
+}
+// Switch
+:where(.css-dev-only-do-not-override-12jzuas).ant-switch.ant-switch-checked {
+  background-color: var(--MainColor);
+}
+:where(
+    .css-dev-only-do-not-override-12jzuas
+  ).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+  background-color: var(--HoverMainColor);
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-switch:hover:not(
+    .ant-switch-disabled
+  ) {
+  background-color: transparent;
+}
+:where(.css-dev-only-do-not-override-12jzuas).ant-image .ant-image-img {
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+{
+  "what_is_happening": "What is happening?!",
+  "post": "Post",
+  "save": "Save",
+  "back": "Back",
+  "to": "To",
+  "quote": "Quote",
+  "send": "Send",
+  "there_is_a_problem_try_again_later": "There is a problem, try again later",
+  "step": "Step",
+  "of": "of",
+  "submit": "Submit",
+  "password_is_incorrect": "Password is incorrect",
+  "delete": "Delete",
+  "message_error_reset_password": "Access to this account has been temporarily disabled due to many failed login attempts. You can immediately restore it by resetting your password or you can try again later.",
+  "for_you": "For you"
+}

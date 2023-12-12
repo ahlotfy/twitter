@@ -1,0 +1,22 @@
+{
+  "hate": "Hate",
+  "hate_title": "Slurs, Racist or sexist stereotypes, Dehumanization, Incitement of fear or discrimination, Hateful references, Hateful symbols & logos",
+  "abuse_&_harassment": "Abuse & Harassment",
+  "abuse_&_harassment_title": "Insults, Unwanted Sexual Content & Graphic Objectification, Unwanted NSFW & Graphic Content, Violent Event Denial, Targeted Harassment and Inciting Harassment",
+  "violent_speech": "Violent Speech",
+  "violent_speech_title": "Violent Threats, Wish of Harm, Glorification of Violence, Incitement of Violence, Coded Incitement of Violence",
+  "child_safety": "Child Safety",
+  "child_safety_title": "Child sexual exploitation, grooming, physical child abuse, underage user",
+  "privacy": "Privacy",
+  "privacy_title": "Sharing private information, threatening to share/expose private information, sharing non-consensual intimate images, sharing images of me that I don’t want on the platform",
+  "spam": "Spam",
+  "spam_title": "Financial scams, posting malicious links, misusing hashtags, fake engagement, repetitive replies, Retweets, or Direct Messages",
+  "suicide_or_self-harm": "Suicide or self-harm",
+  "suicide_or_self-harm_title": "Encouraging, promoting, providing instructions or sharing strategies for self-harm.",
+  "sensitive_or_disturbing_media": "Sensitive or disturbing media",
+  "sensitive_or_disturbing_media_title": "Graphic Content, Gratutitous Gore, Adult Nudity & Sexual Behavior, Violent Sexual Conduct, Bestiality & Necrophilia, Media depicting a deceased individual",
+  "deceptive_identities": "Deceptive identities",
+  "deceptive_identities_title": "Impersonation, non-compliant parody/fan accounts",
+  "violent_&_hateful_entities": "Violent & hateful entities",
+  "violent_&_hateful_entities_title": "Violent extremism and terrorism, hate groups & networks"
+}
