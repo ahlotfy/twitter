@@ -5,13 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "homepage": "http://ahlotfy.github.io/twitter",
     "@ant-design/icons": "^5.1.4",
     "@emoji-mart/data": "^1.1.2",
     "@emoji-mart/react": "^1.1.1",
