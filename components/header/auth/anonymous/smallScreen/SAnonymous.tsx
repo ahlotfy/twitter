@@ -5,8 +5,14 @@ import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 // Style
-import { Box, ImgBox, TitleBox, Sections } from "../../../HeaderStyle";
-import { Footer, Option } from "./SmallScreen";
+import {
+  Box,
+  ImgBox,
+  TitleBox,
+  Sections,
+  Footer,
+  Option,
+} from "../../../HeaderStyle";
 import {
   HomeOutlined,
   SearchOutlined,

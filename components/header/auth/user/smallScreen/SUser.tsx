@@ -5,8 +5,14 @@ import { useSelector } from "react-redux";
 import Link from "next/link";
 import { useRouter } from "next/router";
 // Style
-import { Box, ImgBox, TitleBox, Sections } from "../../../HeaderStyle";
-import { Footer, Option } from "./smallScreen";
+import {
+  Box,
+  ImgBox,
+  TitleBox,
+  Sections,
+  Footer,
+  Option,
+} from "../../../HeaderStyle";
 import {
   HomeOutlined,
   SearchOutlined,
