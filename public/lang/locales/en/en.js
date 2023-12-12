@@ -1,6 +1,6 @@
 import headerTr from "./header.json";
 import sideTr from "./side.json";
-import explore from "./content/Explore.json";
+import explore from "./content/explore.json";
 import setting from "./setting.json";
 import profile from "./profile.json";
 import tweet from "./tweet.json";
