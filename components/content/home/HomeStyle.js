@@ -64,6 +64,9 @@ const Title = styled.div`
   display: flex;
   height: 100%;
   align-items: center;
+  @media (max-width: 576px) {
+    display: none;
+  }
   Button {
     background-color: transparent;
     border: none;
