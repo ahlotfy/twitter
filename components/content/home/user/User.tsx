@@ -135,8 +135,6 @@ const User = () => {
     const tweetsFollowing = DATA?.filter((t: any) =>
       followingUsersList?.includes(t.uid)
     );
-    console.log(DATA);
-
     setShowData(tweetsFollowing);
   };
   return (
@@ -146,7 +144,7 @@ const User = () => {
       </PostBtn>
       <Head className="home">
         <Overlay className="home">
-          <Nav>
+          <Nav className={auth?.currentUser ? "active" : ""}>
             <Title className="user_home_page">
               <Button
                 className={typeTweets === "for_you" ? "active" : ""}
@@ -168,7 +166,14 @@ const User = () => {
                 </svg>
               </Logo>
               <ImgUser className="home" onClick={() => showDrawer(true)}>
-                <Image src={UnknowImg.src} preview={false} />
+                <Image
+                  src={
+                    auth?.currentUser?.photoURL
+                      ? auth?.currentUser?.photoURL
+                      : UnknowImg.src
+                  }
+                  preview={false}
+                />
               </ImgUser>
               <Drawer
                 headerStyle={{ display: "none" }}

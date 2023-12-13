@@ -122,8 +122,10 @@ const Nav = styled.div`
   align-items: center;
   justify-content: space-between;
   @media (max-width: 576px) {
-    height: 100px;
-    flex-direction: column-reverse;
+    &.active {
+      height: 100px;
+      flex-direction: column-reverse;
+    }
   }
 `;
 const Buttons = styled.div`

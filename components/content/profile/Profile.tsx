@@ -90,7 +90,6 @@ const Profile = () => {
   );
   const HandleDATA = location?.pathname === "/profile" ? userInfo : USER_DATA;
   const handleUserData = USER_DATA ? USER_DATA : {};
-  console.log(HandleDATA);
   // UseEffect
   useEffect(() => {
     if (location?.search == "?retweet") {
